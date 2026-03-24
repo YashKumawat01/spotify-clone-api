@@ -5,26 +5,36 @@ It provides user and artist authentication, music upload, album management, and 
 Built with Node.js, Express, MongoDB, Mongoose, and ImageKit for cloud storage.
 ---
 📌 Features
+
 Authentication & Authorization
+
 - Register and login using email/username + password
 - Role-based access: User and Artist
 - Protected APIs using JWT Authentication
 - Secure cookie/token handling
 - Unauthorized users cannot access protected routes
+- 
 Artist Features
+
 - Upload MP3 music files (ImageKit storage)
 - Create albums
 - Add songs to albums
 - View their own albums
+
 User Features
+
 - Listen/view music
 - Browse all albums
 - View specific albums
+
 Architecture
+
 - Clean MVC structure
 - Controllers, Models, Routes separated for clarity
 - Error handling and complete HTTP status code usage
+
 🛠 Tech Stack
+
 ---
 Tool	Use
 Node.js (Latest)	Runtime
@@ -66,12 +76,16 @@ PORT=5000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_jwt_secret
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
+```
 📡 API Endpoints
+
 Auth Routes
 Method	Endpoint	Description
 POST	/api/auth/register	Register user/artist
 POST	/api/auth/login	Login using username/email + password
 POST	/api/auth/logout	Logout
+```
+
 Music & Album Routes
 
 (All protected using JWT)
@@ -97,6 +111,7 @@ Protected routes validate:
 JWT validity
 User role
 🚀 Running the Project
+---
 Install dependencies
 npm install
 Start server
