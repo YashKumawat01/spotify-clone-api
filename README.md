@@ -1,10 +1,10 @@
-**Spotify Clone Backend API**
+# **Spotify Clone Backend API**
 
 A role-based backend system for a Spotify-like music platform.
 It provides user and artist authentication, music upload, album management, and secure access control using JWT.
 Built with Node.js, Express, MongoDB, Mongoose, and ImageKit for cloud storage.
 ---
-**📌 Features**
+# **📌 Features**
 
 Authentication & Authorization
 
