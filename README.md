@@ -32,6 +32,7 @@ MongoDB + Mongoose	Database & ODM
 dotenv	Environment variables
 ImageKit	Cloud storage for MP3 files
 JWT	Authentication
+```
 📁 Project Structure (MVC)
 root/
 │── server.js
@@ -55,6 +56,7 @@ root/
 │   │   ├── auth.middleware.js  
 │   └── service/
 │       └── imagekit.js
+```
 🔐 Environment Variables
 
 Create a .env file:
