@@ -32,10 +32,9 @@ Architecture
 - Clean MVC structure
 - Controllers, Models, Routes separated for clarity
 - Error handling and complete HTTP status code usage
-
+```
 # **🛠 Tech Stack**
 
----
 Tool	Use
 Node.js (Latest)	Runtime
 Express (Latest)	HTTP Framework
@@ -43,6 +42,7 @@ MongoDB + Mongoose	Database & ODM
 dotenv	Environment variables
 ImageKit	Cloud storage for MP3 files
 JWT	Authentication
+```
 ```
 # 📁 Project Structure (MVC)
 root/
