@@ -33,7 +33,7 @@ Architecture
 - Controllers, Models, Routes separated for clarity
 - Error handling and complete HTTP status code usage
 
-**🛠 Tech Stack**
+# **🛠 Tech Stack**
 
 ---
 Tool	Use
@@ -44,7 +44,7 @@ dotenv	Environment variables
 ImageKit	Cloud storage for MP3 files
 JWT	Authentication
 ```
-📁 Project Structure (MVC)
+# 📁 Project Structure (MVC)
 root/
 │── server.js
 │── package.json
@@ -68,7 +68,7 @@ root/
 │   └── service/
 │       └── imagekit.js
 ```
-**🔐 Environment Variables**
+# **🔐 Environment Variables**
 
 Create a .env file:
 
@@ -77,7 +77,7 @@ MONGO_URI=your_mongodb_url
 JWT_SECRET=your_jwt_secret
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 ```
-**📡 API Endpoints**
+# **📡 API Endpoints**
 
 Auth Routes
 Method	Endpoint	Description
@@ -86,7 +86,7 @@ POST	/api/auth/login	Login using username/email + password
 POST	/api/auth/logout	Logout
 ```
 ```
-**Music & Album Routes**
+# **Music & Album Routes**
 
 (All protected using JWT)
 
@@ -98,7 +98,7 @@ GET	/api/music/albums	user/artist	View all albums
 GET	/api/music/albums/:albumID	user/artist	View a specific album
 ```
 ---
-**🧪 Authentication Flow**
+# **🧪 Authentication Flow**
 1. User/Artist registers with:
 Username
 Email
@@ -113,7 +113,7 @@ Username + password
 JWT validity
 User role
 ---
-**🚀 Running the Project**
+# **🚀 Running the Project**
 
 Install dependencies
 
@@ -126,7 +126,7 @@ or
 node server.js
 
 ---
-**📦 Deployment**
+# **📦 Deployment**
 
 You can deploy on:
 
@@ -136,7 +136,7 @@ Cyclic
 Vercel (serverless functions)
 AWS EC2
 
-Make sure to configure environment variables properly on the platform.
+# Make sure to configure environment variables properly on the platform.
 ---
 📄 License
 
