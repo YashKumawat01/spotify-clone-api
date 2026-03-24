@@ -43,8 +43,7 @@ root/
 │   │   └── db.js
 │   ├── controllers/
 │   │   ├── auth.controller.js
-│   │   ├── music.controller.js
-│   │   
+│   │   ├── music.controller.js   
 │   ├── models/
 │   │   ├── user.model.js
 │   │   ├── music.model.js
@@ -53,8 +52,7 @@ root/
 │   │   ├── auth.routes.js
 │   │   └── music.routes.js
 │   ├── middleware/
-│   │   ├── auth.middleware.js
-│   │   
+│   │   ├── auth.middleware.js  
 │   └── service/
 │       └── imagekit.js
 🔐 Environment Variables
