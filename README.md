@@ -136,8 +136,8 @@ Cyclic
 Vercel (serverless functions)
 AWS EC2
 
-# Make sure to configure environment variables properly on the platform.
+## Make sure to configure environment variables properly on the platform.
 ---
-📄 License
+# **📄 License**
 
 This project is licensed under the MIT License.
