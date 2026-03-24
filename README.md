@@ -85,7 +85,7 @@ POST	/api/auth/register	Register user/artist
 POST	/api/auth/login	Login using username/email + password
 POST	/api/auth/logout	Logout
 ```
-
+```
 Music & Album Routes
 
 (All protected using JWT)
@@ -96,20 +96,23 @@ POST	/api/music/upload	artist	Upload MP3 music
 POST	/api/music/album	artist	Create a new album
 GET	/api/music/albums	user/artist	View all albums
 GET	/api/music/albums/:albumID	user/artist	View a specific album
+```
+---
 🧪 Authentication Flow
-User/Artist registers with:
+1. User/Artist registers with:
 Username
 Email
 Password
 Role (user/artist)
-Login using:
+2. Login using:
 Email + password or
 Username + password
-Server generates JWT token
-Token is stored in cookies/headers
-Protected routes validate:
+3. Server generates JWT token
+4. Token is stored in cookies/headers
+5. Protected routes validate:
 JWT validity
 User role
+---
 🚀 Running the Project
 ---
 Install dependencies
@@ -120,6 +123,7 @@ npm run dev
 or
 
 node server.js
+---
 📦 Deployment
 
 You can deploy on:
@@ -131,7 +135,7 @@ Vercel (serverless functions)
 AWS EC2
 
 Make sure to configure environment variables properly on the platform.
-
+---
 📄 License
 
 This project is licensed under the MIT License.
