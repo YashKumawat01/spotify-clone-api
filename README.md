@@ -6,7 +6,7 @@ Built with Node.js, Express, MongoDB, Mongoose, and ImageKit for cloud storage.
 ---
 # **📌 Features**
 
-Authentication & Authorization
+##Authentication & Authorization
 
 - Register and login using email/username + password
 - Role-based access: User and Artist
@@ -14,20 +14,20 @@ Authentication & Authorization
 - Secure cookie/token handling
 - Unauthorized users cannot access protected routes
 - 
-Artist Features
+##Artist Features
 
 - Upload MP3 music files (ImageKit storage)
 - Create albums
 - Add songs to albums
 - View their own albums
 
-User Features
+##User Features
 
 - Listen/view music
 - Browse all albums
 - View specific albums
 
-Architecture
+##Architecture
 
 - Clean MVC structure
 - Controllers, Models, Routes separated for clarity
@@ -35,7 +35,7 @@ Architecture
 ```
 # **🛠 Tech Stack**
 
-Tool	Use
+##Tool	Use
 Node.js (Latest)	Runtime
 Express (Latest)	HTTP Framework
 MongoDB + Mongoose	Database & ODM
@@ -70,7 +70,7 @@ root/
 ```
 # **🔐 Environment Variables**
 
-Create a .env file:
+##Create a .env file:
 
 PORT=5000
 MONGO_URI=your_mongodb_url
@@ -79,7 +79,7 @@ IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 ```
 # **📡 API Endpoints**
 
-Auth Routes
+##Auth Routes
 Method	Endpoint	Description
 POST	/api/auth/register	Register user/artist
 POST	/api/auth/login	Login using username/email + password
@@ -99,17 +99,19 @@ GET	/api/music/albums/:albumID	user/artist	View a specific album
 ```
 ---
 # **🧪 Authentication Flow**
-1. User/Artist registers with:
+##1. User/Artist registers with:
 Username
 Email
 Password
 Role (user/artist)
-2. Login using:
+
+##2. Login using:
 Email + password or
 Username + password
-3. Server generates JWT token
-4. Token is stored in cookies/headers
-5. Protected routes validate:
+
+##3. Server generates JWT token
+##4. Token is stored in cookies/headers
+##5. Protected routes validate:
 JWT validity
 User role
 ---
@@ -128,7 +130,7 @@ node server.js
 ---
 # **📦 Deployment**
 
-You can deploy on:
+##You can deploy on:
 
 Render
 Railway
